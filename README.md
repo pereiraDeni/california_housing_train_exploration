@@ -2,6 +2,12 @@
 __Resumo do Projeto__
 
 Projeto desenvolvido para o challenge-data-engineering MaisTodos
+Ferramentas utilizar:
+
+Airflow e Postgrees conteinerizado DockerHub
+Jupyter Notebook com Anaconda
+S3 AWS
+Python - Pandas, Boto3, Pyarrow
 
 ---
 ### Respostas
