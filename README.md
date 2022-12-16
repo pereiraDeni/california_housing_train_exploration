@@ -1,15 +1,13 @@
----
-__Resumo do Projeto__
+## Projeto desenvolvido para o challenge-data-engineering MaisTodos
 
-Projeto desenvolvido para o challenge-data-engineering MaisTodos
-Ferramentas utilizar:
+Ferramentas Utilizadas:
 
-Airflow e Postgrees conteinerizado DockerHub
-Jupyter Notebook com Anaconda
-S3 AWS
-Python - Pandas, Boto3, Pyarrow
+1 - Airflow e Postgrees conteinerizado DockerHub
+2 - Jupyter Notebook com Anaconda
+3 - S3 AWS
+4 - Python - Pandas, Boto3, Pyarrow
+5- Git
 
----
 ### Respostas
 1.1 - Qual a coluna com maior desvio padrão?
 ![image](https://user-images.githubusercontent.com/53319784/208163368-3ae78faa-f900-46d1-842f-ea7f8248a210.png)
