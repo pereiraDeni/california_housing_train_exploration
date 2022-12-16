@@ -8,7 +8,11 @@ Projeto desenvolvido para o challenge-data-engineering MaisTodos
 1.1 - Qual a coluna com maior desvio padrão?
 ![image](https://user-images.githubusercontent.com/53319784/208163368-3ae78faa-f900-46d1-842f-ea7f8248a210.png)
 
+
 1.2 - Qual valor mínimo e o máximo?
+
+
+
 ![image](https://user-images.githubusercontent.com/53319784/208163462-0580fc37-ea69-4b46-bab5-3eb64dee05c3.png)
 
 2.0 Resultado Final.
