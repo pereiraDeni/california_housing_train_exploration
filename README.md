@@ -15,8 +15,14 @@ Projeto desenvolvido para o challenge-data-engineering MaisTodos
 
 ![image](https://user-images.githubusercontent.com/53319784/208163462-0580fc37-ea69-4b46-bab5-3eb64dee05c3.png)
 
-2.0 Resultado Final.
-![image](https://user-images.githubusercontent.com/53319784/208163611-431cc362-cae6-454f-874c-ea5ca869b71d.png)
+2.1 Tipos de Dados Processed
+![image](https://user-images.githubusercontent.com/53319784/208165429-e6e52e71-ed5a-4b52-ad2e-fdbb702681b1.png)
+
+
+2.2 Resultado Final.
+![image](https://user-images.githubusercontent.com/53319784/208164949-5c06e41a-c067-466b-8229-a6f94544b50c.png)
+
+
 
 O jupyter foi executado no final do airflow.
 
