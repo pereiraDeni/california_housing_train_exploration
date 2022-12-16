@@ -1,3 +1,38 @@
-# california_housing_train_exploration
+---
+__Resumo do Projeto__
 
-![Minion](arquiteture.jpg)
+Projeto desenvolvido para o challenge-data-engineering MaisTodos
+
+---
+### Arquitetura
+
+
+
+## Horizontal Rules
+
+___
+
+---
+
+***
+
+
+#### How to Execute the project
+
+Imagem Airflow retirada do https://github.com/puckel/docker-airflow
+
+Com o DockerHub intalado execute:
+
+    docker-compose -f docker-compose-LocalExecutor.yml up -d
+
+
+entre no terminal:
+
+    docker exec -u root -t -i containerID /bin/bash
+
+execute:
+
+    pip install --upgrade pip
+    pip install boto3
+
+Apos criar o connector com a aws passando seu usuário e criar os buckets no s3 execute a dag.
