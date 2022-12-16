@@ -48,19 +48,19 @@ Apos criar o connector com a aws passando seu usuário e criar os buckets no s3 
 #### Airflow
 
 Airflow possue 6 task:
-1) Carregado o dado cru para o bucket(datalake) no s3.
+1) Carrega os dados cru para o bucket raw (datalake) no s3.
 2) todas as transformações necessárias são aplicadas e armazenada localmente como csv e parquet
-3) apos uma validação de colunas e tipos os dados são enviados para o bucket processed
-4) as agregações são finalizadas e enviadas para o bucket curated.
+3) apos uma validação de colunas e tipos os dados os dados em csv e parquet são enviados para o bucket processed
+4) as agregações são finalizadas e enviadas para o bucket curated no formato csv e parquet.
 
-Os arquivos são armazenados porque já podem ser utilizados por outras equipes.
+Os arquivos são armazenados a cada mudança porque já poderiam ser utilizados por outras equipes.
 
 #### Jupyter
 
-O jupyter foi utilizado para exploração inicial e na parte final carregando os dados _curated e mostrar os resultados.
+O jupyter foi utilizado para exploração inicial e na parte final da agregação dos dados para mostrar os resultados.
 
 #### Melhorias
 
 1) Poderia ser utilizado uma engine como snowflake, redshift, bigquery em conjunto com o DBT para deixar as queries catalogadas, as colunas com descrição e qualquer nova alteração seria versionada.
-2) Da camada raw para a camada processed poderia ser feita apenas a mudança de extensão de .csv para parquet sem alteração dos dados. 
-3) Os dados poderiam ser disponibilizados num datawarehouse para consulta dos analistas e cientistas. Desde a camada processed.
+2) Da camada raw para a camada processed poderia ser feita apenas com a mudança de extensão de .csv para .parquet sem alteração dos dados. 
+3) Os dados poderiam ser disponibilizados num datawarehouse para consulta dos analistas e cientistas, desde a camada processed.
