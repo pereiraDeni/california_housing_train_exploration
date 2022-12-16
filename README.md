@@ -5,16 +5,7 @@ Projeto desenvolvido para o challenge-data-engineering MaisTodos
 
 ---
 ### Arquitetura
-
-
-
-## Horizontal Rules
-
-___
-
----
-
-***
+![Arquiteture](arquiteture.jpg)
 
 
 #### How to Execute the project
