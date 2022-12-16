@@ -2,11 +2,11 @@
 
 Ferramentas Utilizadas:
 
-1 - Airflow e Postgrees conteinerizado DockerHub
-2 - Jupyter Notebook com Anaconda
-3 - S3 AWS
-4 - Python - Pandas, Boto3, Pyarrow
-5- Git
+1. Airflow e Postgrees conteinerizado DockerHub
+2. Jupyter Notebook com Anaconda
+3. S3 AWS
+4. Python - Pandas, Boto3, Pyarrow
+5. Github
 
 ### Respostas
 1.1 - Qual a coluna com maior desvio padrão?
