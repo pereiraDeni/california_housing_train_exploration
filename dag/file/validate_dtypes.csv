@@ -1,0 +1,8 @@
+columns_name,dtypes
+age,object
+california_region,object
+total_rooms,float64
+total_bedrooms,float64
+population,float64
+households,float64
+median_house_value,float64
