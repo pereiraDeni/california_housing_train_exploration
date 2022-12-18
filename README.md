@@ -73,5 +73,6 @@ O jupyter foi utilizado para exploração inicial e na parte final da agregaçã
 
 1) Poderia ser utilizado uma infraestrutura(engine) como snowflake, redshift, bigquery, databricks em conjunto com o DBT para deixar as queries catalogadas, as colunas com descrição e qualquer nova alteração seria versionada. 
 2) O Airflow não foi desenvolvido para carregar conjuntos de dados utilizando sua infra, foi desenvolvido apenas para gerenciar fluxos de trabalho e consumir pouca memória, para o uso de normal precisaria ser executado em outra infraestrutura(engine), carreguei o conjunto de dados no Airflow apenas para esse trabalho porque o conjunto de dados tem poucas linhas e era um único ciclo.
+3) Atualizar o airflow para 2.0 e utilizar taskgroups para agrupar funções com um mesmo propósio.
 3) Da camada raw para a camada processed poderia ser feita apenas com a mudança de extensão de .csv para .parquet sem alteração dos dados. 
 4) Os dados poderiam ser disponibilizados num datawarehouse para consulta dos analistas e cientistas, desde a camada processed.
